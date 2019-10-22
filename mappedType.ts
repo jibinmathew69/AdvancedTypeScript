@@ -9,6 +9,6 @@ type ReadOnlyPet = {
 }
 
 let pet:IPet = {name: "Tom", age: 3}
-let readPet:ReadOnlyPet = {name: "Tom", age: 3} // throws error
+// let readPet:ReadOnlyPet = {name: "Tom", age: 3} // throws error
 
 pet.age = 2

@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "strictNullChecks": true,
-        "strictPropertyInitialization": true,
+        "target": "es6"
     }
 }
