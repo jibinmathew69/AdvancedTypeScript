@@ -2,7 +2,7 @@ function routeToAdminPage(page: string){
 
 }
 function routeToHomePage(page: string){
-    
+
 }
 
 interface Admin{
@@ -15,7 +15,7 @@ interface User{
 }
 
 function redirect(usr : Admin | User){
-    if (/*user is Admin */){
+    if ((<Admin>usr).role !== undefined){
         routeToAdminPage(usr.role)
     }else{
         routeToHomePage(usr.email)
