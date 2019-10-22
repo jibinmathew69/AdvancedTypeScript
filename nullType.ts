@@ -1,5 +1,5 @@
 class Library{
-    titles: string[] | undefined
+    titles: string[] = []
     
     constructor() {
         
