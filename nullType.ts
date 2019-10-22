@@ -1,8 +1,8 @@
 class Library{
-    titles: string[] = []
+    titles: string[]
     
     constructor() {
-        
+        this.titles = []
     }   
 }
 
